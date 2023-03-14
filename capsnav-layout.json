@@ -1,0 +1,220 @@
+[
+  [
+    "~\n`",
+    {
+      "c": "#44475a",
+      "t": "#f8f8f2\n#f8f8f2\n\n\n\n\n\n\n\n#bd93f9\n#bd93f9"
+    },
+    "!\n1\n\n\n\n\n\n\n\n\nF1",
+    "@\n2\n\n\n\n\n\n\n\n\nF2",
+    "#\n3\n\n\n\n\n\n\n\n\nF3",
+    "$\n4\n\n\n\n\n\n\n\n\nF4",
+    "%\n5\n\n\n\n\n\n\n\n\nF5",
+    "^\n6\n\n\n\n\n\n\n\n\nF6",
+    "&\n7\n\n\n\n\n\n\n\n\nF7",
+    "*\n8\n\n\n\n\n\n\n\n\nF8",
+    "(\n9\n\n\n\n\n\n\n\n\nF9",
+    ")\n0\n\n\n\n\n\n\n\n\nF10",
+    "_\n-\n\n\n\n\n\n\n\n\nF11",
+    "+\n=\n\n\n\n\n\n\n\n\nF12",
+    {
+      "c": "#cccccc",
+      "t": "#000000",
+      "w": 2
+    },
+    "Backspace"
+  ],
+  [
+    {
+      "w": 1.5
+    },
+    "Tab",
+    "Q",
+    {
+      "c": "#44475a",
+      "t": "#f8f8f2\n\n\n\n\n\n\n\n\n\n#bd93f9"
+    },
+    "W\n\n\n\n\n\n\n\n\n\n🔈-",
+    "E\n\n\n\n\n\n\n\n\n\n🔊 +",
+    "R\n\n\n\n\n\n\n\n\n\n🔇/",
+    {
+      "t": "#f8f8f2\n\n\n\n\n\n\n\n\n#bd93f9\n#bd93f9"
+    },
+    "T\n\n\n\n\n\n\n\n\n\nCaps",
+    {
+      "t": "#f8f8f2\n\n\n\n\n\n\n\n\n\n#bd93f9"
+    },
+    "Y\n\n\n\n\n\n\n\n\n\nPgUp",
+    "U\n\n\n\n\n\n\n\n\n\nPgDn",
+    {
+      "t": "#f8f8f2\n\n\n\n\n\n\n\n\n#bd93f9\n#bd93f9"
+    },
+    "I\n\n\n\n\n\n\n\n\n\nIns",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n\n\n\n\n\n\n\n\n#000000"
+    },
+    "O",
+    {
+      "c": "#44475a",
+      "t": "#f8f8f2\n\n\n\n\n\n\n\n\n#bd93f9\n#bd93f9"
+    },
+    "P\n\n\n\n\n\n\n\n\n\nPrtScr",
+    {
+      "c": "#cccccc",
+      "t": "#000000"
+    },
+    "{\n[",
+    "}\n]",
+    {
+      "w": 1.5
+    },
+    "|\n\\"
+  ],
+  [
+    {
+      "c": "#bd93f9",
+      "w": 1.75
+    },
+    "Esc\n\n\n\n\n\n\n\n\nCapsNav",
+    {
+      "c": "#cccccc"
+    },
+    "A",
+    {
+      "c": "#f1fa8c",
+      "t": "#000000\n\n\n\n\n\n\n\n\n#000000"
+    },
+    "S\n\n\n\n\n\n\n\n\nShift",
+    {
+      "c": "#ff5555",
+      "t": "#000000"
+    },
+    "D\n\n\n\n\n\n\n\n\nCtrl",
+    {
+      "c": "#50fa7b"
+    },
+    "F\n\n\n\n\n\n\n\n\nAlt",
+    {
+      "c": "#8be9fd"
+    },
+    "G\n\n\n\n\n\n\n\n\nWin",
+    {
+      "c": "#44475a",
+      "t": "#f8f8f2\n\n\n\n\n\n\n\n\n#bd93f9\n#bd93f9"
+    },
+    "H\n\n\n\n\n\n\n\n\n\nLeft",
+    "J\n\n\n\n\n\n\n\n\n\nDown",
+    "K\n\n\n\n\n\n\n\n\n\nUp",
+    "L\n\n\n\n\n\n\n\n\n\nRight",
+    {
+      "c": "#cccccc",
+      "t": "#000000"
+    },
+    ":\n;",
+    "\"\n'",
+    {
+      "w": 2.25
+    },
+    "Enter"
+  ],
+  [
+    {
+      "w": 2.25
+    },
+    "Shift",
+    "Z",
+    {
+      "c": "#44475a",
+      "t": "#f8f8f2\n\n\n\n\n\n\n\n\n\n#bd93f9"
+    },
+    "X\n\n\n\n\n\n\n\n\n\n🔅 -",
+    "C\n\n\n\n\n\n\n\n\n\n🔆 +",
+    "V\n\n\n\n\n\n\n\n\n\n🔆 50",
+    {
+      "c": "#cccccc",
+      "t": "#000000"
+    },
+    "B",
+    {
+      "c": "#44475a",
+      "t": "#f8f8f2\n\n\n\n\n\n\n\n\n\n#bd93f9"
+    },
+    "N\n\n\n\n\n\n\n\n\n\nHome",
+    "M\n\n\n\n\n\n\n\n\n\nEnd",
+    {
+      "t": "#f8f8f2\n#f8f8f2\n\n\n\n\n\n\n\n#bd93f9\n#bd93f9",
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "<\n,\n\n\n\n\n\n\n\nBkSp\nWord",
+    ">\n.\n\n\n\n\n\n\n\nDel\nWord",
+    {
+      "c": "#cccccc",
+      "t": "#000000"
+    },
+    "?\n/",
+    {
+      "w": 2.75
+    },
+    "Shift"
+  ],
+  [
+    {
+      "w": 1.25
+    },
+    "Ctrl",
+    "Fn",
+    "Win",
+    "Alt",
+    {
+      "a": 7,
+      "w": 5
+    },
+    "",
+    {
+      "a": 4
+    },
+    "AltGr",
+    {
+      "w": 1.25
+    },
+    "Ctrl\nMenu",
+    {
+      "x": 1.25,
+      "a": 5,
+      "w": 1.125,
+      "h": 0.5
+    },
+    "Up"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 11.625,
+      "w": 1.125,
+      "h": 0.5
+    },
+    "Left",
+    {
+      "w": 1.125,
+      "h": 0.5
+    },
+    "Down",
+    {
+      "w": 1.125,
+      "h": 0.5
+    },
+    "Right"
+  ]
+]
