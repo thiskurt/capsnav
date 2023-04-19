@@ -14,11 +14,10 @@
 ;                       - Ctrl + 4 || Alt + 4 || Shift + 4 => + F4 supported
 ;                       - Ctrl + - supported  
 ;                       - Ctrl + = supported  
-; CapsLock + ;/'      : windows + arrows left/right     = snap window
-;                       - CapsLock + Ctrl + left/right  = move virtual desktops
-;                       - CapsLock + Shift + left/right = move window between screens
 ; CapsLock + w/e/r    : volume down/up/off
 ; CapsLock + x/c/v    : brightness down/up/half
+; CapsLock + [        : backspace
+; CapsLock + ]        : delete
 
 ; TODO: Some oddities to fix
 ;   - CapsLock + G        => triggers Win + G (assigned to xbox game thing)
@@ -271,10 +270,13 @@ CapsLock & f::Alt
 CapsLock & g::LWin
 
 ; More delete options
-; CapsLock + , / .        = delete word before / after
+; CapsLock + , / .    : delete word before / after
+; CapsLock + [ / ]    : backspace / delete
 ;--------------------------------------
 CapsLock & ,::Send("^{Backspace}")
 CapsLock & .::Send("^{Del}")
+Capslock & [::Send("{Backspace}")
+Capslock & ]::Send("{Del}")
 
 ; CapsLock + p = PrintScreen
 ;--------------------------------------
@@ -413,40 +415,6 @@ CapsLock & =:: {
         return
     }
     Send("{F12}")
-}
-
-; CapsLock + ; or '         => win + direction         = snap window in direction 
-; CapsLock + Shift + ; or ' => win + shift + direction = move window screen in direction
-; CapsLock + Ctrl + ; or '  => win + ctrl + direction  = virtual desktop in direction
-CapsLock & `;:: {
-    ; CapsLock + Shift + ; => win + shift + left = move window screen left
-    if GetKeyState("Shift") = 1 {
-        Send("+#{Left}")
-        return
-    }
-    ; CapsLock + Ctrl + ; => win + ctrl + left = virtual desktop left
-    if GetKeyState("Ctrl") = 1 {
-        Send("^#{Left}")
-        return
-    }
-    ; CapsLock + ; => win + left = snap window left
-    Send("#{Left}")
-    return 
-}
-CapsLock & ':: {
-    ; CapsLock + Shift + ' => win + shift + right = move window screen right
-    if GetKeyState("Shift") = 1 {
-        Send("+#{Right}")
-        return
-    }
-    ; CapsLock + Ctrl + ' => win + ctrl + right = virtual desktop right
-    if GetKeyState("Ctrl") = 1 {
-        Send("^#{Right}")
-        return
-    }
-    ; CapsLock + ' => win + right = snap window right
-    Send("#{Right}")
-    return 
 }
 
 ; CapsLock Media Controller
