@@ -1,16 +1,25 @@
+# Base
+
+- The CapsLock key works as an escape key when tapped and as a navigation key modifier when held down.
+- The Tab key works as a tab key when tapped and a window navigation key when held down.
+
+## Layout
+
+![Base Layout "Base Layout"](layout-base.png)
+
 # CapsNav
 
-An Autohotkey v2 script using CapsLock for navigation keys
+CapsLock key is used as modifier to access the navigation keys.
 
 This was originally a fork of an earlier v1 script, but I can't find the original anymore.
 
 ## Layout
 
-![CapsNav Layout "CapsNav Layout"](capsnav-layout.png)
+![CapsNav Layout "CapsNav Layout"](layout-capsnav.png)
 
 # TabNav
 
-An AHK script using the Tab key for windows snapping, virtual desktop navigation and sending windows across monitors
+The Tab key is used as a modifier for windows navigation that can be used for windows snapping, virtual desktop navigation and sending windows across monitors
 
 ## Layout
 
