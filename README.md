@@ -1,13 +1,13 @@
-- [Base](   #base)    — [(Layout)](#layout)
-- [Capsnav](#capsnav) — [(Layout)](#layout-1)
-- [TabNav]( #tabnav)  — [(Layout)](#layout-2)
+- [Base](#base)
+- [Capsnav](#capsnav)
+- [TabNav]( #tabnav)
 
 # Base
 
 - The CapsLock key works as an escape key when tapped and as a navigation key modifier when held down.
 - The Tab key works as a tab key when tapped and a window navigation key when held down.
 
-## Layout
+<br>
 
 ![Base Layout "Base Layout"](layout-base.png)
 
@@ -17,7 +17,7 @@ CapsLock key is used as modifier to access the navigation keys.
 
 This was originally a fork of an earlier v1 script, but I can't find the original anymore.
 
-## Layout
+<br>
 
 ![CapsNav Layout "CapsNav Layout"](layout-capsnav.png)
 
@@ -25,6 +25,6 @@ This was originally a fork of an earlier v1 script, but I can't find the origina
 
 The Tab key is used as a modifier for windows navigation that can be used for windows snapping, virtual desktop navigation and sending windows across monitors
 
-## Layout
+<br>
 
-TBA
+![TabNav Layout "TabNav Layout"](layout-tabnav.png)
