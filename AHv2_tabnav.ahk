@@ -32,3 +32,6 @@ Tab & m::Send("^#{Right}")
 ; Tab + yu = move window between monitors
 Tab & y::Send("+#{Left}")
 Tab & u::Send("+#{Right}")
+; Tab + <> = delete current, add new virtual desktop
+Tab & ,::Send("^#{F4}")
+Tab & .::Send("^#{d}")
